@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 body {
-  background: linear-gradient(30deg, #008080, #4682B4, #87CEEB);
+  background-color:#c599ff;
+  background-image:
+  radial-gradient(at 32% 36%, hsla(203,97%,64%,1) 0px, transparent 50%),
+  radial-gradient(at 95% 28%, hsla(163,93%,65%,1) 0px, transparent 50%),
+  radial-gradient(at 44% 16%, hsla(260,70%,76%,1) 0px, transparent 50%),
+  radial-gradient(at 64% 3%, hsla(79,68%,65%,1) 0px, transparent 50%);
   margin: 0;
   display: flex;
   align-items: center;
@@ -9,6 +14,7 @@ body {
   width: 100vw;
   height: 100vh;
   color: #fff;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .app {
@@ -20,10 +26,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .box {
@@ -34,7 +40,6 @@ body {
 
 .box p {
   font-size: 50px;
-  font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
 
@@ -48,12 +53,16 @@ body {
   width: 11%;
   text-align: center;
   padding: 5px;
-  font-family: 'Montserrat', sans-serif;
   cursor: pointer;
 }
 
 .choice {
-  background: linear-gradient(30deg, #008080, #4682B4, #87CEEB);
+  background-color:#c599ff;
+  background-image:
+  radial-gradient(at 32% 36%, hsla(203,97%,64%,1) 0px, transparent 50%),
+  radial-gradient(at 95% 28%, hsla(163,93%,65%,1) 0px, transparent 50%),
+  radial-gradient(at 44% 16%, hsla(260,70%,76%,1) 0px, transparent 50%),
+  radial-gradient(at 64% 3%, hsla(79,68%,65%,1) 0px, transparent 50%);
 }
 
 .box3 {
